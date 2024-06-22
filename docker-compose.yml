@@ -1,4 +1,5 @@
-phpmyadmin:
+services:
+  phpmyadmin:
     image: phpmyadmin
     container_name: phpmyadmin
     environment:
