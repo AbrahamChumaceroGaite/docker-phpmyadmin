@@ -5,6 +5,6 @@ services:
     image: phpmyadmin
     container_name: pma
     ports:
-      - 8080:80
+      - 2174:40
     environment:
       - PMA_ARBITRARY=1 
